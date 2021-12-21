@@ -7,3 +7,17 @@
 .logo__second {
     color: var(--main-color);
 }
+
+@media (max-width: 1200px) {
+    .logo {
+        width: 115px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 580px) {
+    .logo {
+        width: 73px;
+        height: 35px;
+    }
+}

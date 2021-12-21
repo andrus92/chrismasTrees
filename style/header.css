@@ -46,3 +46,63 @@
 .header__consultation:focus {
     outline-color: var(--second-color);
 }
+
+@media (max-width: 1440px) {
+    .header__consultation {
+        padding: 12px 30px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        padding: 20px 0;
+    }
+
+    .header__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 38px; 
+    }
+
+    .header__burger {
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: start;
+    }
+
+    .header__logo {
+        grid-row: 1;
+        grid-column: 2;
+        justify-self: center;
+    }
+
+
+    .header__consultation {
+        padding: 8px 20px;
+        font-size: 14px;
+        border-radius: 6px;
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    .header__navigation {
+        grid-row: 2;
+        grid-column: 1/4;
+    }
+}
+
+@media (max-width: 580px) {
+    .header {
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+
+    .header__container {
+        gap: 15px; 
+    }
+    .header__consultation {
+        padding: 5px 14px;
+        font-size: 14px;
+    }
+}
