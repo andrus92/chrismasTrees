@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Cormorant;
+    font-weight: 700;
+    src: local("Cormorant"), local("Cormorant-Bold"),
+    url("../fonts/cormorant-v11-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/cormorant-v11-latin_cyrillic-700.woff") format("woff");
+    font-display: swap;
+}
+
+:root {
+    --main-color: #ffffff;
+    --second-color: #262626;
+    --one-color: #00654E;
+    --two-color: #006E55;
+    --three-color: #005844;
+    --main-bg-color: #005844;
+    --second-bg-color: #C0B487;
+    --trigger-color: #E5AB39;
+    box-sizing: border-box;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    color: var(--main-color);
+}
+
+h1, h2 {
+    font-family: Cormorant;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    color: var(--main-color);
+    letter-spacing: 0.01em;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button, input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
