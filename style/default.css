@@ -94,6 +94,10 @@ button {
     .container {
         padding: 0 39px;
     }
+
+    .b-page_newyear {
+        pointer-events: none;
+    }
 }
 
 @media (max-width: 760px) {
