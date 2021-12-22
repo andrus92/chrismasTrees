@@ -57,6 +57,10 @@ h1, h2 {
     display: none;
 }
 
+h1, h2, h3, p {
+    margin: 0;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -82,7 +86,27 @@ button {
     }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 0 39px;
+    }
+}
+
+@media (max-width: 760px) {
+    
+}
+
+@media (max-width: 580px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+/* @media (max-width: 1440px) {
     
 }
 
@@ -100,4 +124,4 @@ button {
 
 @media (max-width: 580px) {
     
-}
+} */
