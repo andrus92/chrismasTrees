@@ -9,6 +9,23 @@
 
     <link rel="preload" href="/fonts/cormorant-v11-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
 
+    <style>
+        :root {
+            --main-color: #ffffff;
+            --second-color: #262626;
+            --one-color: #00654E;
+            --two-color: #006E55;
+            --three-color: #005844;
+            --main-bg-color: #005844;
+            --second-bg-color: #C0B487;
+            --trigger-color: #E5AB39;
+            --url-features-one: url("../images/tree.svg");
+            --url-features-two: url("../images/christmas-decorations.svg");
+            --url-features-three: url("../images/flowers.svg");
+            --url-features-four: url("../images/delivery-truck.svg");
+        }
+    </style>
+
     <link rel="stylesheet" href="./style/normalise.css">
     <link rel="stylesheet" href="./style/default.css">
     <link rel="stylesheet" href="./style/header.css">
@@ -16,6 +33,7 @@
     <link rel="stylesheet" href="./style/burger.css">
     <link rel="stylesheet" href="./style/navigation.css">
     <link rel="stylesheet" href="./style/hero.css">
+    <link rel="stylesheet" href="./style/features.css">
 
     <link rel="stylesheet" href="./ball/ball.css">
     <script src="./ball/ball.js" defer></script>
@@ -75,7 +93,13 @@
         </section>
         <section class="features">
             <div class="container">
-
+                <h2 class="visually_hidden"></h2>
+                <ul class="features__list">
+                    <li class="features__item features__item_one">Пушистые и ароматные ёлочки</li>
+                    <li class="features__item features__item_two">Набор ёлочных украшений в подарок</li>
+                    <li class="features__item features__item_three">Ёлочки сохранят свежесть надолго</li>
+                    <li class="features__item features__item_four">Доставим ёлочку за наш счет</li>
+                </ul>
             </div>
         </section>
 
