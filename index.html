@@ -13,8 +13,8 @@
         :root {
             --main-color: #ffffff;
             --second-color: #262626;
-            --one-color: #00654E;
-            --two-color: #006E55;
+            --one-color: #006F55;
+            --two-color: #00654E;
             --three-color: #005844;
             --main-bg-color: #005844;
             --second-bg-color: #C0B487;
@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="./style/navigation.css">
     <link rel="stylesheet" href="./style/hero.css">
     <link rel="stylesheet" href="./style/features.css">
+    <link rel="stylesheet" href="./style/product.css">
 
     <link rel="stylesheet" href="./ball/ball.css">
     <script src="./ball/ball.js" defer></script>
@@ -104,18 +105,47 @@
         </section>
 
         <section class="product" id="one">
-            <div class="container">
-
+            <div class="container product__container">
+                <div class="product__content">
+                    <h2 class="product__title">Пихта Фразера</h2>
+                    <p class="product__features">Пихта Фразера чаще использовалась в качестве рождественской ёлки Белого дома</p>
+                    <p class="product__description">Мягкий аромат, форма, и способность сохранять мягкие иголки в течение длительного времени, делают её одним из лучших деревьев для рождества</p>
+                    <div class="product__button-wrapper">
+                        <button class="product__button product__button_order">Заказать</button>
+                        <a class="product__button product__button_more"  href="#" >Подробнее</a>
+                    </div>
+                </div>
+                <img class="product__picture" src="./images/fraser-fir.jpg" width="630" height="590" alt="">
             </div>
         </section>
+
         <section class="product" id="two">
-            <div class="container">
-
+            <div class="container product__container">
+                <div class="product__content">
+                    <h2 class="product__title">Русская ель</h2>
+                    <p class="product__features">Русская ель — наиболее традиционная разновидность рождественских деревьев, которую можно встретить в большинстве советских фильмов про новый год</p>
+                    <p class="product__description">Отличительной особенностью русской ёлки являются выраженный хвойный запах, короткие колючие иголки и сравнительно менее пышная крона</p>
+                    <div class="product__button-wrapper">
+                        <button class="product__button product__button_order">Заказать</button>
+                        <a class="product__button product__button_more"  href="#" >Подробнее</a>
+                    </div>
+                </div>
+                <img class="product__picture" src="./images/russian-fir.jpg" width="630" height="590" alt="">
             </div>
         </section>
-        <section class="product" id="three">
-            <div class="container">
 
+        <section class="product" id="three">
+            <div class="container product__container">
+                <div class="product__content">
+                    <h2 class="product__title">Сибирская пихта</h2>
+                    <p class="product__features">Пихта сибирская является одной из самых красивых и ароматных хвойных пород и ее часто можно встретить в парках и садах</p>
+                    <p class="product__description">Хвоя Сибирской пихты в отличии от еловой крупнее, зеленее, совершенно не колючая и мягкая как трава</p>
+                    <div class="product__button-wrapper">
+                        <button class="product__button product__button_order">Заказать</button>
+                        <a class="product__button product__button_more"  href="#" >Подробнее</a>
+                    </div>
+                </div>
+                <img class="product__picture" src="./images/siberian-fir.jpg" width="630" height="590" alt="">
             </div>
         </section>
 
