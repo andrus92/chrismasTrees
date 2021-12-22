@@ -1,0 +1,67 @@
+.option-pay__picture-wrapper {
+    background-color: var(--main-color);
+    min-height: 146px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 35px;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.option-pay__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    margin-bottom: 15px;
+}
+
+.option-pay__description {
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+}
+
+@media (max-width: 1440px) {
+    .option-pay__title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .option-pay__picture-wrapper {
+        min-height: 106px;
+        padding: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .option-pay__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .option-pay__description {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .option-pay__picture-wrapper {
+        min-height: 73px;
+        padding: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .option-pay__title {
+        font-size: 16px;
+    }
+    
+    .option-pay__description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 580px) {
+    
+}
