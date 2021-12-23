@@ -63,5 +63,11 @@
 }
 
 @media (max-width: 580px) {
+    .option-pay__title {
+        font-size: 14px;
+    }
     
+    .option-pay__description {
+        font-size: 12px;
+    }
 }
