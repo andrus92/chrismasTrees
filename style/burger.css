@@ -1,5 +1,5 @@
 .burger {
-    --display: none;
+    display: none;
     position: relative;
     --width: 21px;
     --height: 14px;
